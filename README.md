@@ -16,5 +16,5 @@ bit export
 ## How to use component in another repo:
 
 ```sh
-yarn add @bit/keee.test.button
+yarn add @bit/<username>.test.button
 ```
