@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## How to export new version:
 
 ```sh
-bit tag --all 1.0.* # new version number
+bit tag button # or: bit tag --all
 bit export
 ```
 
