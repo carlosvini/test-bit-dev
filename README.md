@@ -15,21 +15,11 @@ bit import bit.envs/compilers/react-typescript --compiler
 ```
 
 Add to package.json:
-```cson
+```json
 {
   "peerDependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
-  }
-  "bit": {
-    # ... keep existing settings 
-    "overrides" : {
-      "*": {
-          "devDependencies" : {
-              "@types/node": "+"
-          }
-      }
-    }
   }
 }
 ```
