@@ -22,13 +22,13 @@ bit tag button # or: bit tag --all
 bit export
 ```
 
-## Use component in another repo:
+## Use component in another repo (consumer repo):
 
 ```sh
 yarn add @bit/<username>.test.button
 ```
 
-## Edit component in another repo:
+## Edit component in another repo (consumer repo):
 
 * Install component via "yarn add @bit/<username>.test.button"
 * Import component:
@@ -39,7 +39,7 @@ bit import <username>.test/button
 * Modify code
 * Export normally (via bit tag & bit export)
 
-## Update modified component in original repo:
+## Update modified component in main repo:
 
 ```sh
 bit import
