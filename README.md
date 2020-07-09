@@ -10,6 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```sh
 bit init --package-manager yarn
 bit login
+bit import bit.envs/compilers/react-typescript --compiler
 bit add src/components/Button
 bit tag button
 bit export
