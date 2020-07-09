@@ -12,6 +12,29 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 bit init --package-manager yarn
 bit login
 bit import bit.envs/compilers/react-typescript --compiler
+```
+
+Add to package.json:
+```cson
+{
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+  "bit": {
+    # ... keep existing settings 
+    "overrides" : {
+      "*": {
+          "devDependencies" : {
+              "@types/node": "+"
+          }
+      }
+    }
+  }
+}
+```
+
+```sh
 bit add src/components/Button
 bit tag button
 bit export
